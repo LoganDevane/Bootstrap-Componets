@@ -1,0 +1,30 @@
+.row {
+    border: 1px solid black;
+}
+
+.col {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px; /* Added for better visual */
+}
+
+.col:last-child {
+    border-right: none;
+}
+
+body {
+    background-color: white; /* Change background color to white */
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center container horizontally */
+    margin-top: 20px; /* Add margin for better spacing */
+}
+
+.button {
+    display: flex;
+    flex-direction: column; /* Arrange button content vertically */
+    align-items: center; /* Center button content horizontally */
+    margin-top: 20px; /* Add margin for better spacing */
+}
